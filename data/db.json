@@ -1,0 +1,170 @@
+{
+  "business": {
+    "id": "biz_kakinada_waffles",
+    "slug": "kakinada-waffles",
+    "name": "Kakinada Waffle Co.",
+    "tagline": "Fresh Belgian & Bubble Waffles | Opposite JNTU-K",
+    "category": "waffles",
+    "address": "Shop #4, College Road, Near JNTU-K Main Gate, Kakinada",
+    "staffPin": "1234",
+    "instagramHandle": "kakinadawaffleco",
+    "googleReviewUrl": "https://maps.google.com/?q=JNTU-K+Kakinada",
+    "totalStampsRequired": 6,
+    "rewardTitle": "Free Signature Nutella Waffle",
+    "rewardDescription": "Enjoy a free freshly baked warm Nutella loaded waffle on your 6th visit!",
+    "scratchPrizes": [
+      {
+        "id": "p1",
+        "label": "Free Extra Chocolate Dip",
+        "description": "Add hot Belgian molten chocolate to any waffle",
+        "probability": 0.4,
+        "color": "#f59e0b"
+      },
+      {
+        "id": "p2",
+        "label": "25% Off Your Next Order",
+        "description": "Applicable on any signature waffle or shake",
+        "probability": 0.3,
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "p3",
+        "label": "Free Cold Coffee",
+        "description": "Chilled creamy cold coffee with chocolate drizzle",
+        "probability": 0.2,
+        "color": "#10b981"
+      },
+      {
+        "id": "p4",
+        "label": "JACKPOT: 2 Free Waffles",
+        "description": "Any 2 classic waffles completely on the house!",
+        "probability": 0.1,
+        "color": "#ec4899"
+      }
+    ],
+    "menuItems": [
+      {
+        "id": "m1",
+        "name": "Belgian Dark Chocolate Waffle",
+        "category": "Waffles",
+        "price": 140,
+        "description": "Crispy golden waffle smeared with warm melted dark chocolate",
+        "isPopular": true,
+        "emoji": "🧇"
+      },
+      {
+        "id": "m2",
+        "name": "Triple Chocolate Overload",
+        "category": "Waffles",
+        "price": 170,
+        "description": "White, milk, and dark chocolate layered with chocolate flakes",
+        "isPopular": true,
+        "emoji": "🍫"
+      },
+      {
+        "id": "m3",
+        "name": "Red Velvet White Wonder",
+        "category": "Waffles",
+        "price": 160,
+        "description": "Red velvet base with sweet melted white Belgian chocolate",
+        "emoji": "🍓"
+      },
+      {
+        "id": "m4",
+        "name": "Lotus Biscoff Crunch Waffle",
+        "category": "Waffles",
+        "price": 180,
+        "description": "Rich Biscoff spread topped with crushed caramelized cookies",
+        "isPopular": true,
+        "emoji": "🍪"
+      },
+      {
+        "id": "m5",
+        "name": "Oreo Cream Bubble Waffle",
+        "category": "Bubble Waffles",
+        "price": 160,
+        "description": "Fresh bubble waffle folded with vanilla cream and crushed Oreos",
+        "emoji": "🍨"
+      },
+      {
+        "id": "m6",
+        "name": "Iced Hazelnut Frappe",
+        "category": "Beverages",
+        "price": 120,
+        "description": "Thick espresso blended with hazelnut and creamy ice milk",
+        "emoji": "☕"
+      },
+      {
+        "id": "m7",
+        "name": "Belgian Thick Shake",
+        "category": "Beverages",
+        "price": 130,
+        "description": "Rich double chocolate ice cream milkshake",
+        "isPopular": true,
+        "emoji": "🥤"
+      }
+    ]
+  },
+  "customers": {
+    "9876543210": {
+      "id": "cust_demo_1",
+      "phone": "9876543210",
+      "name": "Ani K.",
+      "joinedAt": "2026-10-15T15:12:04.039Z",
+      "lastVisitAt": "2026-10-22T15:12:43.317Z",
+      "totalVisits": 6,
+      "currentStamps": 0,
+      "cardsCompleted": 1,
+      "hasFollowedInstagram": true,
+      "hasLeftGoogleReview": true,
+      "hasScratchedToday": false,
+      "unlockedRewards": [
+        {
+          "id": "rew_1792683430153",
+          "rewardType": "stamp_milestone",
+          "title": "Free Signature Nutella Waffle",
+          "code": "SOC2850",
+          "createdAt": "2026-10-22T15:37:10.153Z",
+          "redeemed": false
+        },
+        {
+          "id": "rew_demo_scratch",
+          "rewardType": "scratch_win",
+          "title": "Free Extra Chocolate Dip",
+          "code": "DIP482",
+          "createdAt": "2026-10-21T15:12:04.039Z",
+          "redeemed": false
+        }
+      ]
+    }
+  },
+  "activities": [
+    {
+      "id": "act_1792683430153",
+      "timestamp": "2026-10-22T15:37:10.153Z",
+      "customerPhone": "9876543210",
+      "customerName": "Ani K.",
+      "action": "stamp_added",
+      "details": "Social bonus: Claimed 1 bonus stamp for Google review!",
+      "stampsCount": 1
+    },
+    {
+      "id": "act_1792681963317",
+      "timestamp": "2026-10-22T15:12:43.317Z",
+      "customerPhone": "9876543210",
+      "customerName": "Ani K.",
+      "action": "stamp_added",
+      "details": "Staff credited +1 stamp(s). Total: 5/6",
+      "stampsCount": 1
+    },
+    {
+      "id": "act_1",
+      "timestamp": "2026-10-22T14:27:04.039Z",
+      "customerPhone": "9876543210",
+      "customerName": "Ani K.",
+      "action": "stamp_added",
+      "details": "Earned 1 stamp with order (Now 4/6 stamps)",
+      "stampsCount": 1
+    }
+  ]
+}
