@@ -1,6 +1,5 @@
-# Druto Loyalty & Retention Platform (Kakinada Waffle Co.)
-
-A zero-app digital loyalty, stamp card, and customer retention platform replicating [Druto.in](https://druto.in). Built for offline stores, cafes, and waffle shops.
+Loyalty & Retention Platform 
+A zero-app digital loyalty, stamp card, and customer retention platform Built for offline stores, cafes, and waffle shops.
 
 ---
 
